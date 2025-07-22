@@ -22,5 +22,7 @@ jobs:
       run: |
         pip install -r requirements.txt || true
 
-    - name: Run main.py
+    - name: Run script
+      working-directory: angel_one_algo
       run: python main.py
+
